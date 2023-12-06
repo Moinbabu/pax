@@ -1,0 +1,168 @@
+
+        /* Medium */
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+
+        /* navbar part */
+	.navbar .navbar-nav {
+        margin-top: 0.5rem;
+    }
+    .navbar-nav .nav-item .nav-link {
+        margin: 0.2rem 0;
+    }
+    .navbar-nav .nav-item .nav-icon {
+        margin-left: 1rem !important;
+    }
+
+    /* service part */
+    .service_content {
+        padding-top: 1rem;
+    }
+    .service_content .margin {
+        margin-top: 2.5rem;
+    }
+
+    /* work part */
+    .work_content .work_text p:nth-child(3) {
+        display: none;
+    }
+}
+
+
+
+        /* Small */
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+
+    .button {
+        font-size: 0.9rem;
+        padding: 0.5rem 2.3rem;
+    }
+    h2 {
+        font-size: 2.95rem;
+    }
+    .sub_heading {
+        font-size: 1.45rem;
+    }
+
+    /* navbar part */
+    .navbar .navbar-nav {
+        margin-top: 0.5rem;
+    }
+    .navbar-nav .nav-item .nav-link {
+        margin: 0.2rem 0;
+    }
+    .navbar-nav .nav-item .nav-icon {
+        margin-left: 1rem !important;
+    }
+
+     /* hero part */
+    .hero_content h2 {
+        font-size: 3rem !important;
+    }
+    
+    /* service part */
+    .service_content {
+        padding-top: 1.5rem;
+    }
+    .service_content .service_con p {
+        padding: 0 0.8rem;
+    }
+    .service_content .margin2 {
+        margin-top: 2.5rem;
+    }
+
+    /* work part */
+    .work_content .work_text p{
+        text-align: center;
+    }
+}
+
+
+
+        /* Extra Small */
+
+@media (max-width: 575.99px) {
+
+    .button {
+        font-size: 0.9rem;
+        padding: 0.45rem 2.1rem;
+    }
+    h2 {
+        font-size: 2.65rem;
+    }
+    .sub_heading {
+        font-size: 1.4rem;
+    }
+
+    /* navbar part */
+    .navbar .navbar-nav {
+        margin-top: 0.5rem;
+    }
+    .navbar-nav .nav-item .nav-link {
+        margin: 0.2rem 0;
+    }
+    .navbar-nav .nav-item .nav-icon {
+        margin-left: 1rem !important;
+    }
+    .navbar-brand {
+        width: 45%;
+        height: auto;
+    }
+
+    /* hero part */
+    .hero_content h2 {
+        font-size: 2.7rem !important;
+    }
+
+    /* service part */
+    .service_content {
+        padding-top: 1.5rem;
+    }
+    .service_content .service_con p {
+        padding: 0 0.8rem;
+    }
+    .service_content .margin2 {
+        margin-top: 2.5rem;
+    }
+
+    /* work part */
+    .work_content .work_text p{
+        text-align: center;
+    }
+
+    /* contact part  */
+    .contact_content .hidden_column {
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width: 767px) {
+	/* Preloader */
+		
+	.ctn-preloader .animation-preloader .spinner {
+		height: 8em;
+		width: 8em;
+	}
+
+	
+	.ctn-preloader .animation-preloader .txt-loading {
+	  font: bold 3.5em 'Montserrat', sans-serif;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	/* Prelaoder */
+	
+	.ctn-preloader .animation-preloader .spinner {
+		height: 7em;
+		width: 7em;
+	}
+
+	
+	.ctn-preloader .animation-preloader .txt-loading {
+	  font: bold 2em 'Montserrat', sans-serif;
+	}
+}
